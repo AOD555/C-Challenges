@@ -1,0 +1,25 @@
+// Pointer Arrays
+
+#include <stdio.h>
+#include <math.h>
+#include <string.h>
+
+
+int main()
+{
+    char *s = "Angel Jordan";
+
+    int length,x;
+    length = strlen(s);
+
+    printf("The Characters are ");
+    for(x=0;x<length;x++)
+    {
+        //printf("\nFor loop\n");
+        printf("%c",*(s+x));    // Need to use %c for displaying each character
+        //x++;
+    }
+
+
+
+}
